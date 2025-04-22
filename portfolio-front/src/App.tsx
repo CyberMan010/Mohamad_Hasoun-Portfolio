@@ -1,10 +1,18 @@
 import './App.css'
+import { About, Testimonial, Footer, Header, Skills, Work } from './container'
 
 function App() {
 
 
   return (
-    <h1>App</h1>
+    <div className="App">
+      <Header />
+      <About />
+      <Work />
+      <Skills />
+      <Testimonial />
+      <Footer />
+      </div>
   )
 }
 
